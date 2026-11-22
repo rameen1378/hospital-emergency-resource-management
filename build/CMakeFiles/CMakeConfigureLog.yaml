@@ -1,0 +1,808 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.codex\\tmp\\arg0-windows\\codex-arg05Qqic3"
+        - "C:\\Program Files\\Oracle Client for Microsoft Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Qoder IDE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.local\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\mubashir.ali.ARTISTIC\\.vscode\\extensions\\openai.chatgpt-26.1111.21308-win32-x64\\bin\\windows-x86_64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      MSBuild version 18.8.2+ce25c0108 for .NET Framework
+      Build started 21/11/2026 9:16:49 pm.
+      
+      Project "C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018: The "CL" task failed unexpectedly. [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018: System.TypeInitializationException: The type initializer for 'Microsoft.Build.Utilities.FileTracker' threw an exception. ---> System.UnauthorizedAccessException: Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Windows.Win32.Foundation.HRESULT.ThrowOnFailure(IntPtr errorInfo) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Framework.NativeMethods.GetLongFilePath(String path) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.FileTracker..cctor() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    --- End of inner exception stack trace --- [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.FileTracker.FileIsExcludedFromDependencies(String fileName) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles.ConstructDependencyTable() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, ITaskItem[] sourceFiles, ITaskItem[] outputFiles, ITaskItem[] excludedInputPaths, CanonicalTrackedOutputFiles outputs, Boolean useMinimalRebuildOptimization, Boolean maintainCompositeRootingMarkers) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles..ctor(ITaskItem[] tlogFiles, ITaskItem[] sourceFiles, ITaskItem[] excludedInputPaths, CanonicalTrackedOutputFiles outputs, Boolean useMinimalRebuildOptimization, Boolean maintainCompositeRootingMarkers) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.CL.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.VCToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskExecutionHost.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__26.MoveNext() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      Done Building Project "C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+      
+      Build FAILED.
+      
+      "C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default target) (1) ->
+      (ClCompile target) -> 
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018: The "CL" task failed unexpectedly. [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018: System.TypeInitializationException: The type initializer for 'Microsoft.Build.Utilities.FileTracker' threw an exception. ---> System.UnauthorizedAccessException: Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Windows.Win32.Foundation.HRESULT.ThrowOnFailure(IntPtr errorInfo) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Framework.NativeMethods.GetLongFilePath(String path) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.FileTracker..cctor() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    --- End of inner exception stack trace --- [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.FileTracker.FileIsExcludedFromDependencies(String fileName) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles.ConstructDependencyTable() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, ITaskItem[] sourceFiles, ITaskItem[] outputFiles, ITaskItem[] excludedInputPaths, CanonicalTrackedOutputFiles outputs, Boolean useMinimalRebuildOptimization, Boolean maintainCompositeRootingMarkers) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles..ctor(ITaskItem[] tlogFiles, ITaskItem[] sourceFiles, ITaskItem[] excludedInputPaths, CanonicalTrackedOutputFiles outputs, Boolean useMinimalRebuildOptimization, Boolean maintainCompositeRootingMarkers) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.CL.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.VCToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskExecutionHost.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__26.MoveNext() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          0 Warning(s)
+          1 Error(s)
+      
+      Time Elapsed 00:00:03.50
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.codex\\tmp\\arg0-windows\\codex-arg05Qqic3"
+        - "C:\\Program Files\\Oracle Client for Microsoft Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Qoder IDE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.local\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\mubashir.ali.ARTISTIC\\.vscode\\extensions\\openai.chatgpt-26.1111.21308-win32-x64\\bin\\windows-x86_64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      MSBuild version 18.8.2+ce25c0108 for .NET Framework
+      Build started 21/11/2026 9:16:52 pm.
+      
+      Project "C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018: The "CL" task failed unexpectedly. [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018: System.TypeInitializationException: The type initializer for 'Microsoft.Build.Utilities.FileTracker' threw an exception. ---> System.UnauthorizedAccessException: Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Windows.Win32.Foundation.HRESULT.ThrowOnFailure(IntPtr errorInfo) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Framework.NativeMethods.GetLongFilePath(String path) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.FileTracker..cctor() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    --- End of inner exception stack trace --- [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.FileTracker.FileIsExcludedFromDependencies(String fileName) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles.ConstructDependencyTable() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, ITaskItem[] sourceFiles, ITaskItem[] outputFiles, ITaskItem[] excludedInputPaths, CanonicalTrackedOutputFiles outputs, Boolean useMinimalRebuildOptimization, Boolean maintainCompositeRootingMarkers) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles..ctor(ITaskItem[] tlogFiles, ITaskItem[] sourceFiles, ITaskItem[] excludedInputPaths, CanonicalTrackedOutputFiles outputs, Boolean useMinimalRebuildOptimization, Boolean maintainCompositeRootingMarkers) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.CL.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.VCToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskExecutionHost.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__26.MoveNext() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      Done Building Project "C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+      
+      Build FAILED.
+      
+      "C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default target) (1) ->
+      (ClCompile target) -> 
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018: The "CL" task failed unexpectedly. [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018: System.TypeInitializationException: The type initializer for 'Microsoft.Build.Utilities.FileTracker' threw an exception. ---> System.UnauthorizedAccessException: Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Windows.Win32.Foundation.HRESULT.ThrowOnFailure(IntPtr errorInfo) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Framework.NativeMethods.GetLongFilePath(String path) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.FileTracker..cctor() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    --- End of inner exception stack trace --- [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.FileTracker.FileIsExcludedFromDependencies(String fileName) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles.ConstructDependencyTable() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, ITaskItem[] sourceFiles, ITaskItem[] outputFiles, ITaskItem[] excludedInputPaths, CanonicalTrackedOutputFiles outputs, Boolean useMinimalRebuildOptimization, Boolean maintainCompositeRootingMarkers) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.CanonicalTrackedInputFiles..ctor(ITaskItem[] tlogFiles, ITaskItem[] sourceFiles, ITaskItem[] excludedInputPaths, CanonicalTrackedOutputFiles outputs, Boolean useMinimalRebuildOptimization, Boolean maintainCompositeRootingMarkers) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.CL.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.VCToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskExecutionHost.Execute() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Microsoft\\VC\\v180\\Microsoft.CppCommon.targets(790,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__26.MoveNext() [C:\\Users\\mubashir.ali.ARTISTIC\\Desktop\\fusion setup\\hospital-emergency-resource-management\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          0 Warning(s)
+          1 Error(s)
+      
+      Time Elapsed 00:00:00.46
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Qoder IDE/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/"
+    searched_directories:
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/link"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/link.com"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/link.exe"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/link"
+      - "C:/Windows/SysWOW64/link.com"
+      - "C:/Windows/SysWOW64/link.exe"
+      - "C:/Windows/SysWOW64/link"
+      - "C:/Windows/link.com"
+      - "C:/Windows/link.exe"
+      - "C:/Windows/link"
+      - "C:/Windows/SysWOW64/wbem/link.com"
+      - "C:/Windows/SysWOW64/wbem/link.exe"
+      - "C:/Windows/SysWOW64/wbem/link"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/link.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/link.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/link"
+      - "C:/Windows/SysWOW64/OpenSSH/link.com"
+      - "C:/Windows/SysWOW64/OpenSSH/link.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/link"
+      - "C:/Program Files/dotnet/link.com"
+      - "C:/Program Files/dotnet/link.exe"
+      - "C:/Program Files/dotnet/link"
+      - "C:/Program Files/Qoder IDE/bin/link.com"
+      - "C:/Program Files/Qoder IDE/bin/link.exe"
+      - "C:/Program Files/Qoder IDE/bin/link"
+      - "C:/Program Files/Git/cmd/link.com"
+      - "C:/Program Files/Git/cmd/link.exe"
+      - "C:/Program Files/Git/cmd/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.codex\\tmp\\arg0-windows\\codex-arg05Qqic3"
+        - "C:\\Program Files\\Oracle Client for Microsoft Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Qoder IDE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.local\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\mubashir.ali.ARTISTIC\\.vscode\\extensions\\openai.chatgpt-26.1111.21308-win32-x64\\bin\\windows-x86_64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Qoder IDE/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/"
+    searched_directories:
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/lld-link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/lld-link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/lld-link"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/lld-link.com"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/lld-link.exe"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/lld-link"
+      - "C:/Windows/SysWOW64/lld-link.com"
+      - "C:/Windows/SysWOW64/lld-link.exe"
+      - "C:/Windows/SysWOW64/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/SysWOW64/wbem/lld-link.com"
+      - "C:/Windows/SysWOW64/wbem/lld-link.exe"
+      - "C:/Windows/SysWOW64/wbem/lld-link"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.com"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Qoder IDE/bin/lld-link.com"
+      - "C:/Program Files/Qoder IDE/bin/lld-link.exe"
+      - "C:/Program Files/Qoder IDE/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/lld-link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/lld-link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/lld-link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/lld-link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/lld-link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.codex\\tmp\\arg0-windows\\codex-arg05Qqic3"
+        - "C:\\Program Files\\Oracle Client for Microsoft Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Qoder IDE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.local\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\mubashir.ali.ARTISTIC\\.vscode\\extensions\\openai.chatgpt-26.1111.21308-win32-x64\\bin\\windows-x86_64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Qoder IDE/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/"
+    searched_directories:
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/link"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/link.com"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/link.exe"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/link"
+      - "C:/Windows/SysWOW64/link.com"
+      - "C:/Windows/SysWOW64/link.exe"
+      - "C:/Windows/SysWOW64/link"
+      - "C:/Windows/link.com"
+      - "C:/Windows/link.exe"
+      - "C:/Windows/link"
+      - "C:/Windows/SysWOW64/wbem/link.com"
+      - "C:/Windows/SysWOW64/wbem/link.exe"
+      - "C:/Windows/SysWOW64/wbem/link"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/link.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/link.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/link"
+      - "C:/Windows/SysWOW64/OpenSSH/link.com"
+      - "C:/Windows/SysWOW64/OpenSSH/link.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/link"
+      - "C:/Program Files/dotnet/link.com"
+      - "C:/Program Files/dotnet/link.exe"
+      - "C:/Program Files/dotnet/link"
+      - "C:/Program Files/Qoder IDE/bin/link.com"
+      - "C:/Program Files/Qoder IDE/bin/link.exe"
+      - "C:/Program Files/Qoder IDE/bin/link"
+      - "C:/Program Files/Git/cmd/link.com"
+      - "C:/Program Files/Git/cmd/link.exe"
+      - "C:/Program Files/Git/cmd/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/link"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/link.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/link.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.codex\\tmp\\arg0-windows\\codex-arg05Qqic3"
+        - "C:\\Program Files\\Oracle Client for Microsoft Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Qoder IDE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.local\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\mubashir.ali.ARTISTIC\\.vscode\\extensions\\openai.chatgpt-26.1111.21308-win32-x64\\bin\\windows-x86_64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Qoder IDE/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/"
+    searched_directories:
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/mt.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/mt.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/mt"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/mt.com"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/mt.exe"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/mt"
+      - "C:/Windows/SysWOW64/mt.com"
+      - "C:/Windows/SysWOW64/mt.exe"
+      - "C:/Windows/SysWOW64/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/SysWOW64/wbem/mt.com"
+      - "C:/Windows/SysWOW64/wbem/mt.exe"
+      - "C:/Windows/SysWOW64/wbem/mt"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/SysWOW64/OpenSSH/mt.com"
+      - "C:/Windows/SysWOW64/OpenSSH/mt.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Qoder IDE/bin/mt.com"
+      - "C:/Program Files/Qoder IDE/bin/mt.exe"
+      - "C:/Program Files/Qoder IDE/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/mt.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/mt.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/mt"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/mt.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/mt.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/mt"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/mt.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/mt.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.codex\\tmp\\arg0-windows\\codex-arg05Qqic3"
+        - "C:\\Program Files\\Oracle Client for Microsoft Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Qoder IDE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.local\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\mubashir.ali.ARTISTIC\\.vscode\\extensions\\openai.chatgpt-26.1111.21308-win32-x64\\bin\\windows-x86_64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Qoder IDE/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/"
+    searched_directories:
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/lib.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/lib.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.codex/tmp/arg0-windows/codex-arg05Qqic3/lib"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/lib.com"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/lib.exe"
+      - "C:/Program Files/Oracle Client for Microsoft Tools/lib"
+      - "C:/Windows/SysWOW64/lib.com"
+      - "C:/Windows/SysWOW64/lib.exe"
+      - "C:/Windows/SysWOW64/lib"
+      - "C:/Windows/lib.com"
+      - "C:/Windows/lib.exe"
+      - "C:/Windows/lib"
+      - "C:/Windows/SysWOW64/wbem/lib.com"
+      - "C:/Windows/SysWOW64/wbem/lib.exe"
+      - "C:/Windows/SysWOW64/wbem/lib"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lib.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lib.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lib"
+      - "C:/Windows/SysWOW64/OpenSSH/lib.com"
+      - "C:/Windows/SysWOW64/OpenSSH/lib.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/lib"
+      - "C:/Program Files/dotnet/lib.com"
+      - "C:/Program Files/dotnet/lib.exe"
+      - "C:/Program Files/dotnet/lib"
+      - "C:/Program Files/Qoder IDE/bin/lib.com"
+      - "C:/Program Files/Qoder IDE/bin/lib.exe"
+      - "C:/Program Files/Qoder IDE/bin/lib"
+      - "C:/Program Files/Git/cmd/lib.com"
+      - "C:/Program Files/Git/cmd/lib.exe"
+      - "C:/Program Files/Git/cmd/lib"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/lib.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/lib.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.local/bin/lib"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/lib.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/lib.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Microsoft/WindowsApps/lib"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/lib.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/lib.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/lib"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/lib.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/lib.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/GitHubDesktop/bin/lib"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/lib.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/lib.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Ollama/lib"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lib.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lib.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lib"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/lib.com"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/lib.exe"
+      - "C:/Users/mubashir.ali.ARTISTIC/.vscode/extensions/openai.chatgpt-26.1111.21308-win32-x64/bin/windows-x86_64/lib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.codex\\tmp\\arg0-windows\\codex-arg05Qqic3"
+        - "C:\\Program Files\\Oracle Client for Microsoft Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Qoder IDE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\.local\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\mubashir.ali.ARTISTIC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\mubashir.ali.ARTISTIC\\.vscode\\extensions\\openai.chatgpt-26.1111.21308-win32-x64\\bin\\windows-x86_64"
+...

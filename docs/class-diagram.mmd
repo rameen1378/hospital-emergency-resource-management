@@ -1,0 +1,44 @@
+classDiagram
+    direction TB
+    class ConsoleApp {
+        +ConsoleApp()
+        +run()
+    }
+    class EmergencyDepartment {
+        -nextPatientId_ int
+        +registerPatient(alias, priority) int
+        +nextWaiting() optional~int~
+        +addResource(resource)
+        +assign(resourceId, patientId)
+        +release(resourceId)
+        +status() string
+        +saveSnapshot(path)
+    }
+    class Patient {
+        -id_ int
+        -alias_ string
+        -priority_ Priority
+        +id() int
+        +alias() string
+        +priority() Priority
+    }
+    class Resource {
+        <<abstract>>
+        -id_ int
+        -occupant_ optional~int~
+        +id() int
+        +occupant() optional~int~
+        +kind()* string_view
+    }
+    class Bed {
+        +kind() string_view
+    }
+    class Equipment {
+        +kind() string_view
+    }
+    ConsoleApp "1" *-- "1" EmergencyDepartment : owns
+    EmergencyDepartment "1" *-- "0..*" Patient : owns by value
+    EmergencyDepartment "1" *-- "0..*" Resource : owns via unique_ptr
+    Resource "0..*" -- "0..1" Patient : occupant ID
+    Resource <|-- Bed
+    Resource <|-- Equipment

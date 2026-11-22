@@ -1,0 +1,8 @@
+Patients (priority: 1 routine, 2 urgent, 3 critical)
+  #1 Demo-A | priority 1
+  #2 Demo-B | priority 3
+  #3 Demo-C | priority 3
+Resources
+  #101 Bed | free
+  #201 Equipment | free
+Next waiting: patient #2

@@ -1,0 +1,19 @@
+Start testing: Nov 21 21:19 Pakistan Standard Time
+----------------------------------------------------------
+1/1 Testing: hospital_model_tests
+1/1 Test: hospital_model_tests
+Command: "C:/Users/mubashir.ali.ARTISTIC/Desktop/fusion setup/hospital-emergency-resource-management/build-ninja/hospital_tests.exe"
+Directory: C:/Users/mubashir.ali.ARTISTIC/Desktop/fusion setup/hospital-emergency-resource-management/build-ninja
+"hospital_model_tests" start time: Nov 21 21:19 Pakistan Standard Time
+Output:
+----------------------------------------------------------
+All hospital model checks passed.
+<end of output>
+Test time =   2.38 sec
+----------------------------------------------------------
+Test Passed.
+"hospital_model_tests" end time: Nov 21 21:19 Pakistan Standard Time
+"hospital_model_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Nov 21 21:19 Pakistan Standard Time

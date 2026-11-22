@@ -1,0 +1,6 @@
+C:/Users/mubashir.ali.ARTISTIC/Desktop/fusion setup/hospital-emergency-resource-management/build-ninja/CMakeFiles/hospital_model.dir
+C:/Users/mubashir.ali.ARTISTIC/Desktop/fusion setup/hospital-emergency-resource-management/build-ninja/CMakeFiles/hospital_demo.dir
+C:/Users/mubashir.ali.ARTISTIC/Desktop/fusion setup/hospital-emergency-resource-management/build-ninja/CMakeFiles/hospital_tests.dir
+C:/Users/mubashir.ali.ARTISTIC/Desktop/fusion setup/hospital-emergency-resource-management/build-ninja/CMakeFiles/test.dir
+C:/Users/mubashir.ali.ARTISTIC/Desktop/fusion setup/hospital-emergency-resource-management/build-ninja/CMakeFiles/edit_cache.dir
+C:/Users/mubashir.ali.ARTISTIC/Desktop/fusion setup/hospital-emergency-resource-management/build-ninja/CMakeFiles/rebuild_cache.dir
